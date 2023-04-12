@@ -21,6 +21,9 @@ try:
     data = int(browser.find_element(By.ID, 'input_value').text)
     browser.find_element(By.ID, 'answer').send_keys(calk(data))
     browser.find_element(By.TAG_NAME, 'button').click()
+finally:
+    sleep(9)
+    browser.quit()
 
 
 
