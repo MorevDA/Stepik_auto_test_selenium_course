@@ -9,7 +9,6 @@ def calk(x):
 
 
 link = 'http://suninjuly.github.io/redirect_accept.html'
-#link = 'http://suninjuly.github.io/redirect_page.html?'
 
 
 try:
