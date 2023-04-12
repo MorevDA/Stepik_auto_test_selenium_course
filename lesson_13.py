@@ -15,5 +15,5 @@ try:
     browser.find_element(By.ID, 'answer').send_keys(math.log(abs(12 * math.sin(val))))
     browser.find_element(By.ID, 'solve').click()
 finally:
-    sleep(90)
+    sleep(9)
     browser.quit()
